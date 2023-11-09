@@ -1,0 +1,128 @@
+/* Reset de Estilos para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definir o corpo com fundo branco e fonte preta */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Helvetica', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Estilizar o contêiner principal com algum espaçamento */
+.container {
+  max-width: 400px;
+}
+
+/* Estilizar o card com sombra, borda arredondada e algum espaçamento interno */
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Estilizar cabeçalhos com uma cor de vinho, texto branco e alguma margem inferior */
+h1, h2, h3 {
+  color: #800000; /* Vinho */
+  margin-bottom: 10px;
+}
+
+/* Estilizar links com uma cor de vinho e remover sublinhado */
+a {
+  margin-top: 30px;
+  justify-content: center;
+  color: #800000;
+  display: flex;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilizar botões com fundo vinho, texto branco e borda sutil */
+button {
+  background-color: #800000; /* Vinho */
+  color: #ffffff; /* Branco */
+  padding: 10px 15px;
+  border: 1px solid #800000; /* Vinho */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #600000; /* Tom mais escuro de vinho ao passar o mouse */
+}
+
+/* Estilizar formulários com algum espaçamento interno */
+form {
+  padding: 20px;
+}
+
+/* Estilizar rótulos e campos de entrada */
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #800000; /* Vinho */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilizar o botão de envio do formulário de maneira semelhante aos botões */
+input[type="submit"] {
+  background-color: #800000; /* Vinho */
+  color: #ffffff; /* Branco */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #600000; /* Tom mais escuro de vinho ao passar o mouse */
+}
+
+form {
+    background: #bdb8b894;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #555555c2;
+}
+
+/* Adicione este estilo ao seu arquivo CSS para personalizar o link como um botão */
+.btn-custom {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #800000; /* Vinho */
+  color: #ffffff; /* Branco */
+  background-color: #800000; /* Vinho */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #600000; /* Tom mais escuro de vinho ao passar o mouse */
+}
